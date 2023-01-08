@@ -1,7 +1,5 @@
 # mfm-transcripts
 
-⛏Using all YouTube channel video URLs for mass transcript data fetching. Using Python.
-
 ## Packages
 - 1
 - 2
