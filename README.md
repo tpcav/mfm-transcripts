@@ -1,5 +1,7 @@
 # mfm-transcripts
 
+This repo uses Python to extract YouTube channel video URLs and mass transcript data from those videos.
+
 Download or clone this repo to get started `git clone https://github.com/tpcav/mfm-transcripts.git`. Or see the `main.py` file which has the code for the YouTube Transcript API for Python.
 
 ## I. Packages
@@ -27,3 +29,6 @@ Download or clone this repo to get started `git clone https://github.com/tpcav/m
 
 See `main.py`
 
+## VI. Video Tutorial
+
+TODO, add video file
