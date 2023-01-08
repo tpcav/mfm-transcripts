@@ -5,20 +5,21 @@ Download or clone this repo to get started `git clone https://github.com/tpcav/m
 ## I. Packages
 - JSON Decoder `import json`
 - YouTube Transcript API `pip install youtube-transcript-api`
+- Once downloaded to start DEMO run `main.py`
 
 ## II. Getting all channel video URLs without YouTube API
 
 1. Go to the YouTube Channel's video page
 2. Inspect Element
 3. Go to the console
-4. Copy this first `var scroll = setInterval(function(){ window.scrollBy(0, 1000)}, 1000);`. This code scrolls to the bottom of the channels video page, to the first video.
-5. Copy this seconde `window.clearInterval(scroll); console.clear(); urls = $$('a'); urls.forEach(function(v,i,a){if (v.id=="video-title-link"){console.log('\t'+v.title+'\t'+v.href+'\t')}});`. This code returns a list in the console of all of the titles and URLs of all the videos of a channel.
+4. Copy this first `var scroll = setInterval(function(){ window.scrollBy(0, 1000)}, 1000);` This code scrolls to the bottom of the channels video page, to the first video.
+5. Copy this seconde `window.clearInterval(scroll); console.clear(); urls = $$('a'); urls.forEach(function(v,i,a){if (v.id=="video-title-link"){console.log('\t'+v.title+'\t'+v.href+'\t')}});` This code returns a list in the console of all of the titles and URLs of all the videos of a channel.
 
 ## III. Format the links Google Sheets, Excel, etc
 
 ### For example:
-1. This is a full URL `https://www.youtube.com/watch?v=2dOCPr355TQ`.
-2. We just want the last part `2dOCPr355TQ`. This is the video id.
+1. This is a full URL `https://www.youtube.com/watch?v=2dOCPr355TQ`
+2. We just want the last part `2dOCPr355TQ` This is the video id.
 4. The video ids can be used by the YouTube Transcript API to get the transcript data
 
 
