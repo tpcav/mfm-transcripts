@@ -32,4 +32,3 @@ See `main.py`
 ## VI. Video Tutorial
 
 TODO, add video file
->>>>>>> f21b92f16b68d1477f2c5be4c429b892b5241b9c
