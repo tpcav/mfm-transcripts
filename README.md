@@ -24,8 +24,5 @@ Download or clone this repo to get started `git clone https://github.com/tpcav/m
 
 ## IV. Using youtube-transcript-api 
 
-### Extract all transcripts to JSON file
-- 1
-- 2
-- 3
-- 4
+See `main.py`
+
