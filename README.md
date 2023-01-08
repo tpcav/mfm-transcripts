@@ -1,5 +1,7 @@
 # mfm-transcripts
 
+Download or clone this repo to get started `git clone https://github.com/tpcav/mfm-transcripts.git`. Or see the `main.py` file which has the code for the YouTube Transcript API for Python.
+
 ## I. Packages
 - JSON Decoder `import json`
 - YouTube Transcript API `pip install youtube-transcript-api`
