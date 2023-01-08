@@ -1,7 +1,4 @@
 # mfm-transcripts
-<<<<<<< HEAD
-# mfm-yt-transcripts
-=======
 
 This repo uses Python to extract YouTube channel video URLs and mass transcript data from those videos.
 
