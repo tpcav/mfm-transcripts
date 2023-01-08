@@ -5,7 +5,7 @@ Download or clone this repo to get started `git clone https://github.com/tpcav/m
 ## I. Packages
 - JSON Decoder `import json`
 - YouTube Transcript API `pip install youtube-transcript-api`
-- Once downloaded to start DEMO run `main.py`
+- Once downloaded to start DEMO run: `main.py`
 
 ## II. Getting all channel video URLs without YouTube API
 
